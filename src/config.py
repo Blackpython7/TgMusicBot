@@ -85,7 +85,7 @@ TOKEN: Optional[str] = os.getenv("TOKEN")
 SESSION_STRINGS: list[str] = get_session_strings()
 MONGO_URI: Optional[str] = os.getenv("MONGO_URI")
 API_URL: str = os.getenv("API_URL", "https://tgmusic.fallenapi.fun")
-API_KEY: Optional[str] = os.getenv("API_KEY")
+API_KEY: Optional[str] = os.getenv("API_KEY", "05ed96_hPeYTkQsVbfG-v15YkCBIYJHFIVlwcWK")
 
 # Owner and Logger
 OWNER_ID: int = get_env_int("OWNER_ID", 5938660179)
